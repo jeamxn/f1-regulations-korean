@@ -1,5 +1,9 @@
 ---
 title: "제A1조: 일반 원칙"
+chapter: 1
+category: "일반 규제 조항"
+categorySlug: "section-a-general"
+description: "FIA F1 규정의 일반 원칙, 적용 범위 및 위반 책임"
 section: "Section A"
 order: 2
 original: "Article A1: General Principles"

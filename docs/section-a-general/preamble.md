@@ -1,5 +1,9 @@
 ---
 title: "전문"
+chapter: 0
+category: "일반 규제 조항"
+categorySlug: "section-a-general"
+description: "F1 규정의 채택 목적과 핵심 목표를 명시하는 전문"
 section: "Section A"
 order: 1
 original: "Preamble"
