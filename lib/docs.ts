@@ -23,10 +23,49 @@ export interface TocItem {
   level: number;
 }
 
+export interface CategoryMeta {
+  name: string;
+  slug: string;
+  description: string;
+  order: number;
+  gradient: string;
+  accent: string;
+  icon: string;
+}
+
 export interface CategoryGroup {
   name: string;
   slug: string;
+  description: string;
+  gradient: string;
+  accent: string;
+  icon: string;
   docs: DocMeta[];
+}
+
+function getCategoryMeta(): CategoryMeta[] {
+  const entries = fs.readdirSync(docsDirectory, { withFileTypes: true });
+  const categories: CategoryMeta[] = [];
+
+  for (const entry of entries) {
+    if (!entry.isDirectory()) continue;
+    const metaPath = path.join(docsDirectory, entry.name, "_category.md");
+    if (!fs.existsSync(metaPath)) continue;
+
+    const content = fs.readFileSync(metaPath, "utf-8");
+    const { data } = matter(content);
+    categories.push({
+      name: data.name,
+      slug: entry.name,
+      description: data.description,
+      order: data.order ?? 0,
+      gradient: data.gradient ?? "from-gray-600/20 to-gray-900/5",
+      accent: data.accent ?? "bg-gray-500",
+      icon: data.icon ?? "?",
+    });
+  }
+
+  return categories.sort((a, b) => a.order - b.order);
 }
 
 function getMdFiles(dir: string, basePath: string[] = []): { filePath: string; slug: string[] }[] {
@@ -36,7 +75,7 @@ function getMdFiles(dir: string, basePath: string[] = []): { filePath: string; s
   for (const entry of entries) {
     if (entry.isDirectory()) {
       files.push(...getMdFiles(path.join(dir, entry.name), [...basePath, entry.name]));
-    } else if (entry.name.endsWith(".md")) {
+    } else if (entry.name.endsWith(".md") && !entry.name.startsWith("_")) {
       const nameWithoutExt = entry.name.replace(/\.md$/, "");
       files.push({
         filePath: path.join(dir, entry.name),
@@ -69,23 +108,28 @@ export function getAllDocs(): DocMeta[] {
 
 export function getDocsByCategory(): CategoryGroup[] {
   const docs = getAllDocs();
-  const categoryMap = new Map<string, CategoryGroup>();
-
-  const categoryOrder = ["technical-regulations", "sporting-regulations", "financial-regulations"];
+  const categories = getCategoryMeta();
+  const docMap = new Map<string, DocMeta[]>();
 
   for (const doc of docs) {
     const key = doc.frontmatter.categorySlug;
-    if (!categoryMap.has(key)) {
-      categoryMap.set(key, {
-        name: doc.frontmatter.category,
-        slug: key,
-        docs: [],
-      });
+    if (!docMap.has(key)) {
+      docMap.set(key, []);
     }
-    categoryMap.get(key)!.docs.push(doc);
+    docMap.get(key)!.push(doc);
   }
 
-  return categoryOrder.filter((slug) => categoryMap.has(slug)).map((slug) => categoryMap.get(slug)!);
+  return categories
+    .filter((cat) => docMap.has(cat.slug))
+    .map((cat) => ({
+      name: cat.name,
+      slug: cat.slug,
+      description: cat.description,
+      gradient: cat.gradient,
+      accent: cat.accent,
+      icon: cat.icon,
+      docs: docMap.get(cat.slug)!,
+    }));
 }
 
 export function getDocBySlug(slug: string[]): { frontmatter: DocFrontmatter; content: string } {

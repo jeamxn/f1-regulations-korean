@@ -6,12 +6,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
-const categoryIcons: Record<string, string> = {
-  "technical-regulations": "T",
-  "sporting-regulations": "S",
-  "financial-regulations": "F",
-};
-
 export function Sidebar({ categories }: { categories: CategoryGroup[] }) {
   const pathname = usePathname();
   const [openCategories, setOpenCategories] = useState<Record<string, boolean>>(
@@ -40,7 +34,7 @@ export function Sidebar({ categories }: { categories: CategoryGroup[] }) {
             onClick={() => toggleCategory(category.slug)}
             className="flex w-full items-center gap-2.5 rounded-lg px-4 py-2 text-left text-sm font-medium text-muted transition-colors hover:bg-surface hover:text-foreground">
             <span className="flex h-5 w-5 items-center justify-center rounded bg-surface text-[10px] font-bold text-muted">
-              {categoryIcons[category.slug] || "?"}
+              {category.icon}
             </span>
             <span className="flex-1">{category.name}</span>
             <svg

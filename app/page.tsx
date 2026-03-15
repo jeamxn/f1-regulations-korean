@@ -2,24 +2,6 @@ import { getDocsByCategory } from "@/lib/docs";
 
 import Link from "next/link";
 
-const categoryDescriptions: Record<string, string> = {
-  "technical-regulations": "차량 설계, 파워 유닛, 공력 장치, 섀시 등 F1 머신의 기술적 사양을 규정합니다.",
-  "sporting-regulations": "경기 진행, 포인트 시스템, 페널티, 드라이버 자격 등 스포츠 규칙을 다룹니다.",
-  "financial-regulations": "비용 상한제, 재정 보고, 팀 예산 관리 등 재정적 규정을 정의합니다.",
-};
-
-const categoryColors: Record<string, string> = {
-  "technical-regulations": "from-red-600/20 to-red-900/5",
-  "sporting-regulations": "from-blue-600/20 to-blue-900/5",
-  "financial-regulations": "from-emerald-600/20 to-emerald-900/5",
-};
-
-const categoryAccents: Record<string, string> = {
-  "technical-regulations": "bg-red-500",
-  "sporting-regulations": "bg-blue-500",
-  "financial-regulations": "bg-emerald-500",
-};
-
 export default function Home() {
   const categories = getDocsByCategory();
 
@@ -72,7 +54,9 @@ export default function Home() {
       {/* Category Cards */}
       <section className="mx-auto max-w-5xl px-6 py-16">
         <h2 className="mb-2 text-sm font-semibold tracking-wider text-muted uppercase">규정 카테고리</h2>
-        <p className="mb-10 text-2xl font-semibold tracking-tight text-foreground">세 가지 핵심 규정 영역</p>
+        <p className="mb-10 text-2xl font-semibold tracking-tight text-foreground">
+          {categories.length}가지 핵심 규정 영역
+        </p>
 
         <div className="grid gap-4 md:grid-cols-3">
           {categories.map((category) => (
@@ -81,12 +65,12 @@ export default function Home() {
               href={`/docs/${category.docs[0].slug.join("/")}`}
               className="group relative overflow-hidden rounded-xl border border-border bg-surface p-6 transition-all hover:border-border hover:bg-surface-hover">
               <div
-                className={`absolute inset-0 bg-gradient-to-br ${categoryColors[category.slug] || "from-gray-600/20 to-gray-900/5"} opacity-0 transition-opacity group-hover:opacity-100`}
+                className={`absolute inset-0 bg-gradient-to-br ${category.gradient} opacity-0 transition-opacity group-hover:opacity-100`}
               />
               <div className="relative">
-                <div className={`mb-4 h-1 w-8 rounded-full ${categoryAccents[category.slug] || "bg-gray-500"}`} />
+                <div className={`mb-4 h-1 w-8 rounded-full ${category.accent}`} />
                 <h3 className="mb-2 text-lg font-semibold text-foreground">{category.name}</h3>
-                <p className="mb-4 text-sm leading-relaxed text-muted">{categoryDescriptions[category.slug] || ""}</p>
+                <p className="mb-4 text-sm leading-relaxed text-muted">{category.description}</p>
                 <div className="flex items-center justify-between">
                   <span className="text-xs text-muted">{category.docs.length}개 챕터</span>
                   <svg
