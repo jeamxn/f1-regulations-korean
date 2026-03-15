@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
-
 import type { TocItem } from "@/lib/docs";
+
+import { useEffect, useState } from "react";
 
 export function TableOfContents({ items }: { items: TocItem[] }) {
   const [activeId, setActiveId] = useState<string>("");

@@ -1,10 +1,10 @@
 "use client";
 
+import type { CategoryGroup } from "@/lib/docs";
+
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-
-import type { CategoryGroup } from "@/lib/docs";
 
 const categoryIcons: Record<string, string> = {
   "technical-regulations": "T",
@@ -24,9 +24,7 @@ export function Sidebar({ categories }: { categories: CategoryGroup[] }) {
 
   return (
     <nav className="flex flex-col gap-1 py-4">
-      <Link
-        href="/"
-        className="mb-6 flex items-center gap-3 px-4 transition-opacity hover:opacity-80">
+      <Link href="/" className="mb-6 flex items-center gap-3 px-4 transition-opacity hover:opacity-80">
         <div className="flex h-8 w-8 items-center justify-center rounded-md bg-accent font-mono text-sm font-bold text-white">
           F1
         </div>

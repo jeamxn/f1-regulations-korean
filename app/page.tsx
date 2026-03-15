@@ -1,6 +1,6 @@
-import Link from "next/link";
-
 import { getDocsByCategory } from "@/lib/docs";
+
+import Link from "next/link";
 
 const categoryDescriptions: Record<string, string> = {
   "technical-regulations": "차량 설계, 파워 유닛, 공력 장치, 섀시 등 F1 머신의 기술적 사양을 규정합니다.",
@@ -86,9 +86,7 @@ export default function Home() {
               <div className="relative">
                 <div className={`mb-4 h-1 w-8 rounded-full ${categoryAccents[category.slug] || "bg-gray-500"}`} />
                 <h3 className="mb-2 text-lg font-semibold text-foreground">{category.name}</h3>
-                <p className="mb-4 text-sm leading-relaxed text-muted">
-                  {categoryDescriptions[category.slug] || ""}
-                </p>
+                <p className="mb-4 text-sm leading-relaxed text-muted">{categoryDescriptions[category.slug] || ""}</p>
                 <div className="flex items-center justify-between">
                   <span className="text-xs text-muted">{category.docs.length}개 챕터</span>
                   <svg

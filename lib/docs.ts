@@ -1,6 +1,5 @@
 import fs from "node:fs";
 import path from "node:path";
-
 import matter from "gray-matter";
 
 const docsDirectory = path.join(process.cwd(), "docs");
@@ -90,7 +89,7 @@ export function getDocsByCategory(): CategoryGroup[] {
 }
 
 export function getDocBySlug(slug: string[]): { frontmatter: DocFrontmatter; content: string } {
-  const filePath = path.join(docsDirectory, ...slug) + ".md";
+  const filePath = `${path.join(docsDirectory, ...slug)}.md`;
   const fileContent = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(fileContent);
   return {

@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
-
 import type { CategoryGroup } from "@/lib/docs";
+
+import { useState } from "react";
 
 import { MobileMenuButton, Sidebar } from "./sidebar";
 

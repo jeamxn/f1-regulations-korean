@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
-
 import { DocsLayout } from "@/components/docs-layout";
 import { MarkdownRenderer } from "@/components/markdown-renderer";
 import { TableOfContents } from "@/components/toc";
 import { extractToc, getAllDocSlugs, getDocBySlug, getDocsByCategory } from "@/lib/docs";
+
+import type { Metadata } from "next";
 
 export async function generateStaticParams() {
   const slugs = getAllDocSlugs();

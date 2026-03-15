@@ -15,13 +15,7 @@
           "level": "on",
           "options": {
             "identifierOrder": "natural",
-            "groups": [
-              "@/**",
-              ":BLANK_LINE:",
-              [":BUN:", ":NODE:", ":PACKAGE:"],
-              ":BLANK_LINE:",
-              ":PATH:"
-            ]
+            "groups": ["@/**", ":BLANK_LINE:", [":BUN:", ":NODE:", ":PACKAGE:"], ":BLANK_LINE:", ":PATH:"]
           }
         }
       }
