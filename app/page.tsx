@@ -1,65 +1,147 @@
-import Image from "next/image";
+import Link from "next/link";
+
+import { getDocsByCategory } from "@/lib/docs";
+
+const categoryDescriptions: Record<string, string> = {
+  "technical-regulations": "차량 설계, 파워 유닛, 공력 장치, 섀시 등 F1 머신의 기술적 사양을 규정합니다.",
+  "sporting-regulations": "경기 진행, 포인트 시스템, 페널티, 드라이버 자격 등 스포츠 규칙을 다룹니다.",
+  "financial-regulations": "비용 상한제, 재정 보고, 팀 예산 관리 등 재정적 규정을 정의합니다.",
+};
+
+const categoryColors: Record<string, string> = {
+  "technical-regulations": "from-red-600/20 to-red-900/5",
+  "sporting-regulations": "from-blue-600/20 to-blue-900/5",
+  "financial-regulations": "from-emerald-600/20 to-emerald-900/5",
+};
+
+const categoryAccents: Record<string, string> = {
+  "technical-regulations": "bg-red-500",
+  "sporting-regulations": "bg-blue-500",
+  "financial-regulations": "bg-emerald-500",
+};
 
 export default function Home() {
+  const categories = getDocsByCategory();
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <div className="min-h-screen bg-background">
+      {/* Header */}
+      <header className="border-b border-border">
+        <div className="mx-auto flex h-14 max-w-5xl items-center justify-between px-6">
+          <Link href="/" className="flex items-center gap-3 transition-opacity hover:opacity-80">
+            <div className="flex h-8 w-8 items-center justify-center rounded-md bg-accent font-mono text-sm font-bold text-white">
+              F1
+            </div>
+            <span className="text-sm font-semibold text-foreground">F1 규정집</span>
+          </Link>
+          <div className="flex items-center gap-4">
+            <span className="rounded-full border border-border px-3 py-1 text-xs text-muted">2026</span>
+          </div>
+        </div>
+      </header>
+
+      {/* Hero */}
+      <section className="relative overflow-hidden border-b border-border">
+        <div className="absolute inset-0 bg-gradient-to-b from-accent/5 to-transparent" />
+        <div className="relative mx-auto max-w-5xl px-6 pt-24 pb-20">
+          <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-surface px-3 py-1">
+            <span className="h-1.5 w-1.5 rounded-full bg-accent" />
+            <span className="text-xs text-muted">2026 시즌 규정</span>
+          </div>
+          <h1 className="mb-6 max-w-2xl text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl">
+            FIA 포뮬러 원
+            <br />
+            <span className="text-muted">규정집 한국어 번역</span>
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <p className="mb-10 max-w-xl text-lg leading-relaxed text-muted">
+            2026 FIA 포뮬러 원 월드 챔피언십의 기술, 스포츠, 재정 규정을 한국어로 번역하여 제공합니다.
           </p>
+          {categories.length > 0 && (
+            <Link
+              href={`/docs/${categories[0].docs[0].slug.join("/")}`}
+              className="inline-flex items-center gap-2 rounded-lg bg-accent px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-accent-hover">
+              규정 읽기 시작
+              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </Link>
+          )}
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* Category Cards */}
+      <section className="mx-auto max-w-5xl px-6 py-16">
+        <h2 className="mb-2 text-sm font-semibold tracking-wider text-muted uppercase">규정 카테고리</h2>
+        <p className="mb-10 text-2xl font-semibold tracking-tight text-foreground">세 가지 핵심 규정 영역</p>
+
+        <div className="grid gap-4 md:grid-cols-3">
+          {categories.map((category) => (
+            <Link
+              key={category.slug}
+              href={`/docs/${category.docs[0].slug.join("/")}`}
+              className="group relative overflow-hidden rounded-xl border border-border bg-surface p-6 transition-all hover:border-border hover:bg-surface-hover">
+              <div
+                className={`absolute inset-0 bg-gradient-to-br ${categoryColors[category.slug] || "from-gray-600/20 to-gray-900/5"} opacity-0 transition-opacity group-hover:opacity-100`}
+              />
+              <div className="relative">
+                <div className={`mb-4 h-1 w-8 rounded-full ${categoryAccents[category.slug] || "bg-gray-500"}`} />
+                <h3 className="mb-2 text-lg font-semibold text-foreground">{category.name}</h3>
+                <p className="mb-4 text-sm leading-relaxed text-muted">
+                  {categoryDescriptions[category.slug] || ""}
+                </p>
+                <div className="flex items-center justify-between">
+                  <span className="text-xs text-muted">{category.docs.length}개 챕터</span>
+                  <svg
+                    className="h-4 w-4 text-muted transition-transform group-hover:translate-x-1"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </div>
+              </div>
+            </Link>
+          ))}
         </div>
-      </main>
+      </section>
+
+      {/* All Chapters */}
+      <section className="mx-auto max-w-5xl px-6 pb-20">
+        <h2 className="mb-8 text-2xl font-semibold tracking-tight text-foreground">전체 목록</h2>
+        <div className="grid gap-6 md:grid-cols-3">
+          {categories.map((category) => (
+            <div key={category.slug}>
+              <h3 className="mb-3 text-sm font-semibold text-muted">{category.name}</h3>
+              <div className="flex flex-col gap-1">
+                {category.docs.map((doc) => (
+                  <Link
+                    key={doc.slug.join("/")}
+                    href={`/docs/${doc.slug.join("/")}`}
+                    className="rounded-lg px-3 py-2 text-sm text-muted transition-colors hover:bg-surface hover:text-foreground">
+                    <span className="mr-2 font-mono text-xs text-muted/50">
+                      {String(doc.frontmatter.chapter).padStart(2, "0")}
+                    </span>
+                    {doc.frontmatter.title}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="border-t border-border">
+        <div className="mx-auto max-w-5xl px-6 py-8">
+          <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
+            <p className="text-xs text-muted">
+              본 사이트는 FIA 공식 문서의 비공식 한국어 번역입니다. 정확한 내용은 FIA 원문을 참고하세요.
+            </p>
+            <p className="text-xs text-muted">f1.jeamxn.dev</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
