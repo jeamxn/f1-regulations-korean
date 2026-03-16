@@ -12,8 +12,8 @@ original: "Appendix A8: Championship Trophy Rules"
 # 부속서 A8: 챔피언십 트로피 규정(Appendix A8: Championship Trophy Rules)
 
 :::info 거버넌스 정보
-- **자문 위원회**: RGAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">RGAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 1. 본 부속서는 컨스트럭터즈 트로피(Constructors' Trophy) 및 드라이버즈 챔피언십 트로피(Drivers' Championship Trophy)(이하 "FIA 트로피(FIA Trophies)")에 적용된다.

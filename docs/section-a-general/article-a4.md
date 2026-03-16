@@ -12,8 +12,8 @@ original: "Article A4: Integrity Requirements"
 # 제A4조: 무결성 요건(Article A4: Integrity Requirements)
 
 :::info 거버넌스 정보
-- **자문 위원회**: RGAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">RGAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 ## A4.1 적격성 심사(Fit and Proper Persons Test)

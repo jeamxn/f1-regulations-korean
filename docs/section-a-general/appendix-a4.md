@@ -12,8 +12,8 @@ original: "Appendix A4: Entry Form for the FIA Formula One World Championship an
 # 부속서 A4: FIA 포뮬러 원 월드 챔피언십 참가 신청서 및 F1 팀 핵심 인원 등록 양식(Appendix A4: Entry Form for the FIA Formula One World Championship and Registration Form for Key Personnel of F1 Teams)
 
 :::info 거버넌스 정보
-- **자문 위원회**: RGAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">RGAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 대문자로 표기된 정의 용어는 FIA F1 규정에서 부여된 의미를 갖는다.

@@ -12,8 +12,8 @@ original: "Appendix A6: Movement of Personnel Form"
 # 부속서 A6: 인원 이동 양식(Appendix A6: Movement of Personnel Form)
 
 :::info 거버넌스 정보
-- **자문 위원회**: RGAC
-- **거버넌스**: F1 위원회(F1 Commission) / PU 제조사 거버넌스 합의(PU Manufacturers' Governance Agreement) / WMSC
+- **자문 위원회**: <span class="governance">RGAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / PU 제조사 거버넌스 합의(PU Manufacturers' Governance Agreement) / WMSC</span>
 :::
 
 ## 인원 이동 신고서(Movement of Personnel Declaration)

@@ -12,8 +12,8 @@ original: "Article A8: Confidentiality, Public Reporting, and Data Privacy"
 # 제A8조: 기밀유지, 공개 보고 및 데이터 프라이버시(Article A8: Confidentiality, Public Reporting, and Data Privacy)
 
 :::info 거버넌스 정보
-- **자문 위원회**: RGAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">RGAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 ## A8.1 기밀유지(Confidentiality)
@@ -36,17 +36,17 @@ a. 적용 대상자(Covered Person)에 대한 조사가 개시되었는지 여�
 
 b. 적용 대상자가 FIA F1 규정 위반 혐의를 통지받았는지 여부;
 
-c. 심판 또는 1심 FIA 법원에 대한 사건 회부(회부 사유 포함) 및 청문 일자;
+<mark class="changed">c.</mark> 심판 또는 1심 FIA 법원에 대한 사건 회부(회부 사유 포함) 및 청문 일자;
 
-d. 심판 또는 1심 FIA 법원의 최종 결정(또는 그 요약), 주문 및 이유 부기 결정 포함;
+<mark class="changed">d.</mark> 심판 또는 1심 FIA 법원의 최종 결정(또는 그 요약), 주문 및 이유 부기 결정 포함;
 
-e. 심판 또는 1심 FIA 법원의 결정에 대한 항소(Appeal)가 제기되었는지 여부 및 항소 심리 일자;
+<mark class="changed">e.</mark> 심판 또는 1심 FIA 법원의 결정에 대한 항소(Appeal)가 제기되었는지 여부 및 항소 심리 일자;
 
-f. 국제항소법원(International Court of Appeal)의 최종 결정(또는 그 요약), 주문 및 이유 부기 결정 포함;
+<mark class="changed">f.</mark> 국제항소법원(International Court of Appeal)의 최종 결정(또는 그 요약), 주문 및 이유 부기 결정 포함;
 
-g. 적용 대상자가 위반 승인 합의(ABA) 또는 합의 계약(settlement agreement)을 체결하였는지 여부, 및 적용 대상자와 체결된 ABA 또는 합의 계약의 조건 요약(위반 사항 및 부과된 제재 상세 포함); 및
+<mark class="changed">g.</mark> 적용 대상자가 위반 승인 합의(ABA) 또는 합의 계약(settlement agreement)을 체결하였는지 여부, 및 적용 대상자와 체결된 ABA 또는 합의 계약의 조건 요약(위반 사항 및 부과된 제재 상세 포함); 및
 
-h. 어떤 F1 팀(F1 Team) 또는 PU 제조사(PU Manufacturer)가 재정 규정(Financial Regulations)을 준수하였는지 또는 준수하지 아니하였는지 여부.
+<mark class="changed">h.</mark> 어떤 F1 팀(F1 Team) 또는 PU 제조사(PU Manufacturer)가 재정 규정(Financial Regulations)을 준수하였는지 또는 준수하지 아니하였는지 여부.
 
 i. 관련 인원의 이름, 다만 그러한 언급은 핵심 개별 F1 팀 구성원(Key Individual F1 Team Members), 핵심 개별 F1 PU 구성원(Key Individual F1 PU Members) 및 드라이버(Driver)로 엄격히 제한한다.
 

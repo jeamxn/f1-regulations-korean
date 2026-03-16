@@ -12,8 +12,8 @@ original: "Article A5: General Roles and Responsibilities of Key Stakeholders"
 # 제A5조: 주요 이해관계자의 역할과 책임(Article A5: General Roles and Responsibilities of Key Stakeholders)
 
 :::info 거버넌스 정보
-- **자문 위원회**: RGAC (별도 명시가 없는 한)
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC (별도 명시가 없는 한)
+- **자문 위원회**: <span class="governance">RGAC (별도 명시가 없는 한)</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC (별도 명시가 없는 한)</span>
 :::
 
 ## A5.1 모든 자에게 적용되는 일반적 의무(General obligations applicable to all)
@@ -86,15 +86,15 @@ FIA는 그 기능 수행을 지원하기 위하여 독립 감사법인(Independe
 
 프로모터는 FIA 규칙 및 규정에 규정된 모든 요건을 준수하여야 한다.
 
-경기대회의 프로모터는 모든 참가자(Competitors), 그 인원 및 드라이버가 FIA 요건에 따라 제3자 보험에 가입되도록 하여야 한다. 다음의 조건이 적용된다:
+<mark class="changed">경기대회의 프로모터는 모든 참가자(Competitors), 그 인원 및 드라이버가 FIA 요건에 따라 제3자 보험에 가입되도록 하여야 한다. 다음의 조건이 적용된다:</mark>
 
-a) 프로모터는 경기대회 90일 이전까지 보험 증권이 보장하는 위험의 세부 사항을 FIA에 송부하여야 한다.
+<mark class="changed">a) 프로모터는 경기대회 90일 이전까지 보험 증권이 보장하는 위험의 세부 사항을 FIA에 송부하여야 한다.</mark>
 
-b) 보험 증권은 시행 중인 국내법 및 FIA 요건을 준수하여야 한다. 증권의 열람은 참가자의 요청 시 가능하여야 한다.
+<mark class="changed">b) 보험 증권은 시행 중인 국내법 및 FIA 요건을 준수하여야 한다. 증권의 열람은 참가자의 요청 시 가능하여야 한다.</mark>
 
-c) 프로모터가 주선한 제3자 보험은 참가자 또는 경기대회의 기타 참여자가 보유한 개인 보험에 추가되는 것이며 이에 영향을 미치지 아니한다.
+<mark class="changed">c) 프로모터가 주선한 제3자 보험은 참가자 또는 경기대회의 기타 참여자가 보유한 개인 보험에 추가되는 것이며 이에 영향을 미치지 아니한다.</mark>
 
-d) 경기대회에 참가하는 드라이버는 상호 간에 제3자가 아니다.
+<mark class="changed">d) 경기대회에 참가하는 드라이버는 상호 간에 제3자가 아니다.</mark>
 
 ### A5.3.2 주최자(Organiser)
 
@@ -129,7 +129,7 @@ ASN은 하나의 국가 영토에서 스포츠 권한(Sporting Power)을 행사�
 ## A5.7 F1 팀 및 PU 제조사(F1 Teams and PU Manufacturers)
 
 :::info 거버넌스 정보
-- **거버넌스**: F1 위원회(F1 Commission) / PU 제조사 거버넌스 협정(PU Manufacturers' Governance Agreement) / WMSC
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / PU 제조사 거버넌스 협정(PU Manufacturers' Governance Agreement) / WMSC</span>
 :::
 
 ### A5.7.1
@@ -143,7 +143,7 @@ ASN은 하나의 국가 영토에서 스포츠 권한(Sporting Power)을 행사�
 ### A5.7.3 인원 이동 – F1 팀(Movement of personnel – F1 Teams)
 
 :::info 거버넌스 정보
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 a. F1 팀 또는 PU 제조사 및 그 인원이 FIA 규칙 및 규정의 적용을 받으며, FIA 규칙 및 규정이 F1 팀 또는 PU 제조사 및/또는 그 인원에게 부과하는 모든 요건을 숙지하도록 고지할 것;
@@ -183,7 +183,7 @@ e. 인원이 본 제A5.7.3조에 규정된 요건을 준수하지 아니하는 �
 ### A5.7.4 인원 이동 – PU 제조사(Movement of personnel – PU Manufacturers)
 
 :::info 거버넌스 정보
-- **거버넌스**: PU 제조사 거버넌스 협정(PU Manufacturers' Governance Agreement) / WMSC
+- **거버넌스**: <span class="governance">PU 제조사 거버넌스 협정(PU Manufacturers' Governance Agreement) / WMSC</span>
 :::
 
 a. 각 PU 제조사는 기존 또는 예비 연료/오일 공급자 또는 다른 PU 제조사에 대한 지식재산권 및/또는 비밀정보의 공개를 방지하기 위한 합리적 조치를 이행하여야 한다. 어떠한 PU 제조사도 직접 또는 외부 단체를 통하여 지식재산권 이전을 취득하거나 기존 또는 예비 연료/오일 공급자 또는 다른 PU 제조사에 대한 비밀정보 공개 방지 요건을 우회할 목적으로 기존 또는 예비 연료/오일 공급자 또는 다른 PU 제조사와의 인원(피고용인, 근로자, 컨설턴트, 도급인, 파견자, 대리인, 임원, 기타 유형의 상시 또는 임시 인원으로서 하도급인이 고용한 자를 포함)의 이동을 이용하여서는 아니 된다.
@@ -202,7 +202,7 @@ b. FIA가 해당 인원의 이동이 기존 또는 예비 연료/오일 공급�
 
 F1 드라이버(F1 Drivers) 및 기타 레이싱 드라이버(Other Racing Drivers)는 항상 FIA 규칙 및 규정을 준수하여야 하며, 제A3.3조에 따라 요구되는 라이선스를 보유하여야 한다.
 
-[드라이버 정의는 검토 예정]
+<span class="comment">[드라이버 정의는 검토 예정]</span>
 
 ## A5.9 기타 대상자(Other Covered Persons)
 

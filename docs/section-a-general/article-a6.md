@@ -12,8 +12,8 @@ original: "Article A6: Investigations, Right of Inquiry, and Notification of Bre
 # 제A6조: 조사, 심리 요청권 및 위반 통지(Article A6: Investigations, Right of Inquiry, and Notification of Breaches)
 
 :::info 거버넌스 정보
-- **자문 위원회**: RGAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">RGAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 ## A6.1 조사(Investigations)

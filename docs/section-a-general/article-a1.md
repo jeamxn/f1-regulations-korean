@@ -12,8 +12,8 @@ original: "Article A1: General Principles"
 # 제A1조: 일반 원칙(Article A1: General Principles)
 
 :::info 거버넌스 정보
-- **자문 위원회**: RGAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">RGAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 ## A1.1 개요(Overview)
@@ -141,7 +141,7 @@ FIA F1 규정에 구체적으로 명시되지 않는 한 FIA F1 규정에 따른
 
 a. 드라이버; 또는
 
-b. 본 Section A 및 ISC의 조항과 관련하여 개인의 행위에 관한 위반으로서, Section B, C, D, E 및 F의 범위에 해당하지 않는 위반에 대한 F1 팀 또는 PU 제조사의 핵심 개인(Key Individual).
+b. <mark class="changed">본 Section A 및 ISC의 조항과 관련하여 개인의 행위에 관한 위반으로서, Section B, C, D, E 및 F의 범위에 해당하지 않는 위반에 대한</mark> F1 팀 또는 PU 제조사의 핵심 개인(Key Individual).
 
 기타 모든 경우, 개인의 특정 행위에 대하여 금전적 제재가 적용되는 경우, 해당 제재는 그 개인이 소속된 F1 팀, PU 제조사 또는 기타 조직에 부과된다.
 

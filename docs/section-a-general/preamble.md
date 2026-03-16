@@ -12,8 +12,8 @@ original: "Preamble"
 # 전문(Preamble)
 
 :::info 거버넌스 정보
-- **자문 위원회**: RGAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">RGAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 F1 규정(아래 A1.2.2조에서 정의)은 FIA(국제자동차연맹)와 FIA 포뮬러 원 월드 챔피언십(FIA Formula One World Championship, 이하 "챔피언십(Championship)")을 뒷받침하는 근본적인 가치를 수호하기 위한 목적으로 채택된다.

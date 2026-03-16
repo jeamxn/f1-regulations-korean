@@ -12,11 +12,11 @@ original: "Appendix A7: Supply of Power Units, Fuel and Oil for 2026-2030"
 # 부속서 A7: 2026-2030년 파워 유닛, 연료 및 오일 공급(Appendix A7: Supply of Power Units, Fuel and Oil for 2026-2030)
 
 :::info 거버넌스 정보
-- **거버넌스**: PU 제조사 거버넌스 합의(PU Manufacturers' Governance Agreement) / WMSC
+- **거버넌스**: <span class="governance">PU 제조사 거버넌스 합의(PU Manufacturers' Governance Agreement) / WMSC</span>
 :::
 
 :::note 참고
-본 부속서는 Section C에서 Section A로 이동되었으며, 이전에는 부속서 C8(Appendix C8)으로 명명되었다.
+<span class="comment">본 부속서는 Section C에서 Section A로 이동되었으며, 이전에는 부속서 C8(Appendix C8)으로 명명되었다.</span>
 :::
 
 ## 1. 2026년부터 2030년까지의 FIA 포뮬러 원 월드 챔피언십을 위한 파워 유닛 공급
@@ -129,7 +129,7 @@ b. 공급 계약에 따라 신규 고객 경쟁자에게 PU를 인도하고/하�
 
 ### 1.4 파워 유닛 최대 공급 가격
 
-부속서 C4의 해당 열에 기재된 PU 공급 범위는 물가연동(Indexation)을 적용하여 최대 ~~22~~20백만 유로의 가격으로 공급되어야 한다. 본 조의 목적상, 물가연동은 포뮬러 원 파워 유닛 재정 규정(Formula 1 Power Unit Financial Regulations) 부속서 1에 명시되고 그에 규정된 방법론에 따라 산정된다. 부속서에 기재되지 아니한 추가 물품 또는 서비스(PU 제조사와 경쟁자 간에 합의됨)의 공급에는 추가 비용이 발생하며, 그 금액은 시장에서 일반적으로 인정되고 존중되는 관행 및 관례에 기초한다.
+<mark class="changed">부속서 C4의 해당 열에 기재된 PU 공급 범위는 물가연동(Indexation)을 적용하여 최대 ~~22~~20백만 유로의 가격으로 공급되어야 한다. 본 조의 목적상, 물가연동은 포뮬러 원 파워 유닛 재정 규정(Formula 1 Power Unit Financial Regulations) 부속서 1에 명시되고 그에 규정된 방법론에 따라 산정된다. 부속서에 기재되지 아니한 추가 물품 또는 서비스(PU 제조사와 경쟁자 간에 합의됨)의 공급에는 추가 비용이 발생하며, 그 금액은 시장에서 일반적으로 인정되고 존중되는 관행 및 관례에 기초한다.</mark>
 
 ## 2. 경쟁자에 대한 연료 및 엔진 오일 공급 의무
 
@@ -139,7 +139,7 @@ b. 공급 계약에 따라 신규 고객 경쟁자에게 PU를 인도하고/하�
 
 a. N-1년도 1월 1일까지 연료 및/또는 엔진 오일 공급자 등록 양식을 작성할 것;
 
-b. 기술 규정(Technical Regulations) 제C16.4조에 정의된 적합성 절차와 관련하여 FIA-F1-DOC-004 지속가능 연료 인증 프로그램(Sustainable Fuel Certification Programme)에 기재된 수수료 체계에 따라 FIA가 발행하는 청구서를 납부할 것;
+b. 기술 규정(Technical Regulations) 제C16.4조에 정의된 적합성 절차와 관련하여 <span class="reference">FIA-F1-DOC-004</span> 지속가능 연료 인증 프로그램(Sustainable Fuel Certification Programme)에 기재된 수수료 체계에 따라 FIA가 발행하는 청구서를 납부할 것;
 
 c. ISC, FIA F1 규정 Section C [기술], FIA F1 규정 Section B [스포츠], 사법 및 징계 규칙(Judicial and Disciplinary Rules) 및 기타 모든 관련 적용 가능한 FIA 규칙 및/또는 규정(수시로 보충 또는 개정)에 구속되고 이를 준수할 것에 동의할 것;
 

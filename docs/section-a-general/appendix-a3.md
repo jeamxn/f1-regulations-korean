@@ -12,8 +12,8 @@ original: "Appendix A3: Access to Electronic Devices (\"Demands\")"
 # 부속서 A3: 전자기기 접근("요구")(Appendix A3: Access to Electronic Devices ("Demands"))
 
 :::info 거버넌스 정보
-- **자문 위원회**: RGAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">RGAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 ## 1. 요구에 관한 추가 규칙(Additional rules specific to Demands)

@@ -12,8 +12,8 @@ original: "Article A3: Entries, Licences and Registration"
 # 제A3조: 참가, 라이선스 및 등록(Article A3: Entries, Licences and Registration)
 
 :::info 거버넌스 정보
-- **자문 위원회**: RGAC (별도 명시가 없는 한)
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC (별도 명시가 없는 한)
+- **자문 위원회**: <span class="governance">RGAC (별도 명시가 없는 한)</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC (별도 명시가 없는 한)</span>
 :::
 
 ## A3.1 F1 팀 참가 신청(F1 Team entry applications)
@@ -55,10 +55,10 @@ F1 팀의 신청은 위 요건에 따라 적정하게 작성되어야 하며 참
 ## A3.2 PU 제조사 참가 신청(Power Unit Manufacturer entry applications)
 
 :::info 거버넌스 정보
-- **거버넌스**: PU 제조사 거버넌스 협정(PU Manufacturers' Governance Agreement) / WMSC
+- **거버넌스**: <span class="governance">PU 제조사 거버넌스 협정(PU Manufacturers' Governance Agreement) / WMSC</span>
 :::
 
-2026년부터 2030년 챔피언십까지 하나 이상의 F1 팀에 파워 유닛을 공급하기 위하여 부속서 A7 제1조에 규정된 절차에 따라 등록된 PU 제조사(PU Manufacturer)는 해당 챔피언십 기간 중 사용할 파워 유닛 공급을 의도하는 첫해 3월 1일 이전에 Section C 부속서 C5의 요건에 따라 FIA에 파워 유닛 형식인증 서류(Power Unit homologation dossier)를 제출하여야 한다. 부여된 형식인증은 PU 규정의 실질적 변경으로 인하여 새로운 형식인증 서류의 제출이 필요한 경우가 아닌 한 2030년 챔피언십 종료 시까지 유효하다. 형식인증 서류는 Section C 부속서 C5에 정의된 절차에 따라 수시로 갱신될 수 있다.
+2026년부터 2030년 챔피언십까지 하나 이상의 F1 팀에 파워 유닛을 공급하기 위하여 부속서 A7 제1조에 규정된 절차에 따라 등록된 PU 제조사(PU Manufacturer)는 해당 챔피언십 기간 중 사용할 파워 유닛 공급을 의도하는 첫해 3월 1일 이전에 <mark class="changed">Section C 부속서 C5</mark>의 요건에 따라 FIA에 파워 유닛 형식인증 서류(Power Unit homologation dossier)를 제출하여야 한다. 부여된 형식인증은 PU 규정의 실질적 변경으로 인하여 새로운 형식인증 서류의 제출이 필요한 경우가 아닌 한 2030년 챔피언십 종료 시까지 유효하다. 형식인증 서류는 Section C 부속서 C5에 정의된 절차에 따라 수시로 갱신될 수 있다.
 
 ## A3.3 라이선스(Licences)
 
@@ -76,13 +76,13 @@ F1 팀은 챔피언십 참가의 조건으로 유효한 슈퍼 라이선스를 �
 
 ### A3.3.3
 
-주최자(Organiser) 및 다음의 임원(Official)은 각각 유효한 슈퍼 라이선스를 보유하여야 한다: 심판(Steward), 레이스 디렉터(race director), 경기 감독관(clerk of the course), 의료 대표(medical delegate), 부의료 대표(deputy medical delegate), 기술 대표(technical delegate), 미디어 대표(media delegate), 계시원(timekeeper), 세이프티 카 드라이버(Safety Car driver), 의전관(master of ceremonies), 그리고 FIA가 지정하는 기타 임원. 해당 슈퍼 라이선스는 매년 갱신하여야 하며, 해당 라이선스가 사용되는 첫 번째 경기대회의 첫 번째 차량 검사 14일 전까지 관련 양식을 FIA에 제출하여야 한다(FIA는 상황에 따라 다른 기한에 동의할 수 있다).
+주최자(Organiser) 및 다음의 임원(Official)은 각각 유효한 슈퍼 라이선스를 보유하여야 한다: 심판(Steward), 레이스 디렉터(race director), 경기 감독관(clerk of the course), 의료 대표(medical delegate), 부의료 대표(deputy medical delegate), 기술 대표(technical delegate), 미디어 대표(media delegate), 계시원(timekeeper), 세이프티 카 드라이버(Safety Car driver), 의전관(master of ceremonies), 그리고 FIA가 지정하는 기타 임원. 해당 슈퍼 라이선스는 매년 갱신하여야 하며, <mark class="changed">해당 라이선스가 사용되는 첫 번째 경기대회의 첫 번째 차량 검사 14일 전까지 관련 양식을 FIA에 제출하여야 한다(FIA는 상황에 따라 다른 기한에 동의할 수 있다).</mark>
 
 ## A3.4 F1 팀 및 PU 제조사의 핵심 인원 등록 증명서(Certificate of registration for key Personnel of F1 Teams and PU Manufacturers)
 
 :::info 거버넌스 정보
-- **자문 위원회**: RGAC
-- **거버넌스**: F1 위원회(F1 Commission) / PU 제조사 거버넌스 협정(PU Manufacturers' Governance Agreement) / WMSC
+- **자문 위원회**: <span class="governance">RGAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / PU 제조사 거버넌스 협정(PU Manufacturers' Governance Agreement) / WMSC</span>
 :::
 
 ISC 제2.6.4조 및 제2.6.5조에 따라, F1 팀 및 PU 제조사는 해당 조항에 열거된 인원(Personnel) 및 부속서 A4B와 부속서 A5에 의하여 등록이 요구되는 기타 인원을 FIA에 등록하여야 한다.
@@ -116,7 +116,7 @@ N년도 이전 각 해당 연도에 시행 중인 조항의 준수가 요구된�
 ## A3.6 신규 참가 PU 제조사(New Entrant PU Manufacturers)
 
 :::info 거버넌스 정보
-- **거버넌스**: PU 제조사 거버넌스 협정(PU Manufacturers' Governance Agreement) / WMSC
+- **거버넌스**: <span class="governance">PU 제조사 거버넌스 협정(PU Manufacturers' Governance Agreement) / WMSC</span>
 :::
 
 ### A3.6.1

@@ -12,8 +12,8 @@ original: "Article A9: Effective Period, Amendments, Interpretation, and Miscell
 # 제A9조: 유효 기간, 개정, 해석 및 기타 사항(Article A9: Effective Period, Amendments, Interpretation, and Miscellaneous)
 
 :::info 거버넌스 정보
-- **자문 위원회**: RGAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">RGAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 ## A9.1 FIA F1 규정의 유효 기간(Effective period of the FIA F1 Regulations)
@@ -134,11 +134,11 @@ m. '인(person)'(머리글자를 대문자로 표기하지 아니한 것)에 대
 
 FIA F1 규정에는 아래에 설명된 바와 같이 안내를 목적으로 색상 텍스트로 된 일부 주석이 포함된다. 이 텍스트는 규제적 효력이 없으며, FIA F1 규정에서 그 추가 또는 삭제는 WMSC의 승인을 요하지 아니하고 적용 가능한 거버넌스 절차의 일부로서 다른 승인의 대상이 되지 아니한다.
 
-a. 적색으로 표시된 텍스트(예: [abcde])는 FIA F1 규정의 해당 부분에 대한 개정의 논의 및/또는 승인을 위한 적절한 자문 위원회 및 거버넌스 절차를 나타낸다. 자문 위원회 및 그 각각의 소관 사항의 요약은 부속서 A2(Appendix A2)에 제시되어 있다.
+a. 적색으로 표시된 텍스트(예: <span class="governance">[abcde]</span>)는 FIA F1 규정의 해당 부분에 대한 개정의 논의 및/또는 승인을 위한 적절한 자문 위원회 및 거버넌스 절차를 나타낸다. 자문 위원회 및 그 각각의 소관 사항의 요약은 부속서 A2(Appendix A2)에 제시되어 있다.
 
-b. 주황색으로 표시된 텍스트(예: [FIA-F1-DOCxxx])는 FIA F1 규정의 특정 조항에 관련될 수 있는 FIA F1 문서(제A1.2.3조 참조)에 대한 참조를 제공한다. 그러한 참조는 해당 FIA F1 문서의 유효성을 확인하는 것이 아니며, 그러한 참조가 없다고 하여 해당 FIA F1 문서가 적용되지 아니함을 의미하는 것도 아니다.
+b. 주황색으로 표시된 텍스트(예: <span class="reference">[FIA-F1-DOCxxx]</span>)는 FIA F1 규정의 특정 조항에 관련될 수 있는 FIA F1 문서(제A1.2.3조 참조)에 대한 참조를 제공한다. 그러한 참조는 해당 FIA F1 문서의 유효성을 확인하는 것이 아니며, 그러한 참조가 없다고 하여 해당 FIA F1 문서가 적용되지 아니함을 의미하는 것도 아니다.
 
-c. 녹색으로 표시된 텍스트(예: [abcde])는 해당 조항의 맥락 또는 의도된 규제 발전 사항을 제공한다.
+c. 녹색으로 표시된 텍스트(예: <span class="comment">[abcde]</span>)는 해당 조항의 맥락 또는 의도된 규제 발전 사항을 제공한다.
 
 ## A9.5 해명 요청 및 FIA 피드백(Requests for clarification and FIA feedback)
 

@@ -12,7 +12,7 @@ original: "Appendix A5: Registration Form for Key Personnel of PU Manufacturers"
 # 부속서 A5: PU 제조사 핵심 인원 등록 양식(Appendix A5: Registration Form for Key Personnel of PU Manufacturers)
 
 :::info 거버넌스 정보
-- **거버넌스**: PU 제조사 거버넌스 합의(PU Manufacturers' Governance Agreement) / WMSC
+- **거버넌스**: <span class="governance">PU 제조사 거버넌스 합의(PU Manufacturers' Governance Agreement) / WMSC</span>
 :::
 
 대문자로 표기된 정의 용어는 FIA F1 규정에서 부여된 의미를 갖는다.

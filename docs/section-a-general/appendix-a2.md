@@ -12,8 +12,8 @@ original: "Appendix A2: Summary of Advisory Committees"
 # 부속서 A2: 자문 위원회 요약(Appendix A2: Summary of Advisory Committees)
 
 :::info 거버넌스 정보
-- **자문 위원회**: RGAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">RGAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 FIA F1 규정의 단기, 중기 또는 장기적 개선으로 이어질 수 있는 모든 규제 개정 및 관련 주제에 대한 일반적인 논의는 적용 가능한 거버넌스 절차에 따라 관련 자문 위원회(Advisory Committee)에서 논의된다.
