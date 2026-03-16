@@ -1,5 +1,6 @@
 import { DocsLayout } from "@/components/docs-layout";
 import { MarkdownRenderer } from "@/components/markdown-renderer";
+import { RegulationLegend } from "@/components/regulation-legend";
 import { TableOfContents } from "@/components/toc";
 import { extractToc, getAllDocSlugs, getDocBySlug, getDocsByCategory } from "@/lib/docs";
 
@@ -38,6 +39,7 @@ export default async function DocPage({ params }: { params: Promise<{ slug: stri
             </div>
             <p className="text-sm text-muted">{frontmatter.description}</p>
           </div>
+          <RegulationLegend />
           <MarkdownRenderer content={content} />
         </article>
 

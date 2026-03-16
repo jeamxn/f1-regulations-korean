@@ -211,3 +211,25 @@ body {
 .prose > :first-child {
   margin-top: 0;
 }
+
+/* Regulation change markers */
+.prose mark.changed {
+  background: rgba(255, 0, 255, 0.15);
+  color: inherit;
+  padding: 0.1em 0.2em;
+  border-radius: 2px;
+  border-bottom: 2px solid #ff40ff;
+}
+
+.prose .governance {
+  color: #ff6b6b;
+}
+
+.prose .reference {
+  color: #ffb347;
+}
+
+.prose .comment {
+  color: #69db7c;
+  font-style: italic;
+}
