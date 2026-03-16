@@ -12,8 +12,8 @@ original: "Article B10: Media Activities & Official Ceremonies"
 # 제B10조: 미디어 활동 및 공식 행사(Article B10: Media Activities & Official Ceremonies)
 
 :::info 거버넌스 정보
-- **자문 위원회**: SAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">SAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 ## B10.1 미디어 활동(Media Activities)

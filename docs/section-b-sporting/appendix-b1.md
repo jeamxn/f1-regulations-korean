@@ -12,8 +12,8 @@ original: "Appendix B1: Definitions"
 # 부속서 B1: 정의(Appendix B1: Definitions)
 
 :::info 거버넌스 정보
-- **자문 위원회**: SAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">SAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 **"대체 포맷 경기대회(Alternative Format Competition, AFC)"**란 스프린트(Sprint)가 편성된 경기대회(Competition)를 의미한다.

@@ -12,8 +12,8 @@ original: "Appendix B4: Information Required 90 Days Before a Competition"
 # 부속서 B4: 경기대회 90일 전 필요 정보(Appendix B4: Information Required 90 Days Before a Competition)
 
 :::info 거버넌스 정보
-- **자문 위원회**: SAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">SAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 ## Part A.

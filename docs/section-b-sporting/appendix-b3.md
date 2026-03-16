@@ -12,8 +12,8 @@ original: "Appendix B3: Procedures for Regulatory Submissions"
 # 부속서 B3: 규정 제출 절차(Appendix B3: Procedures for Regulatory Submissions)
 
 :::info 거버넌스 정보
-- **자문 위원회**: SAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">SAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 [추후 추가 예정]

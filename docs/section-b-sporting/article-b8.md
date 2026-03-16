@@ -12,8 +12,8 @@ original: "Article B8: Car & Component Limitations"
 # 제B8조: 차량 및 부품 제한(Article B8: Car & Component Limitations)
 
 :::info 거버넌스 정보
-- **자문 위원회**: SAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">SAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 ## B8.1 차량 제한 및 사용(Car Limitations & Usage)

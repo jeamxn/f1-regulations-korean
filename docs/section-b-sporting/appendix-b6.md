@@ -12,8 +12,8 @@ original: "Appendix B6: Approved Changes to Section B for Subsequent Years"
 # 부속서 B6: 향후 연도 Section B 승인 변경사항(Appendix B6: Approved Changes to Section B for Subsequent Years)
 
 :::info 거버넌스 정보
-- **자문 위원회**: SAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">SAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 ## 2027년 변경사항(Changes for 2027)

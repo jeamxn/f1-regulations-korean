@@ -12,8 +12,8 @@ original: "Appendix B5: Podium Ceremony"
 # 부속서 B5: 포디움 세레모니(Appendix B5: Podium Ceremony)
 
 :::info 거버넌스 정보
-- **자문 위원회**: SAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">SAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 각 이벤트(Event)에서의 포디움 세레모니(Podium Ceremony) 절차는 아래와 같다.

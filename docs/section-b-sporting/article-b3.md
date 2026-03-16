@@ -12,8 +12,8 @@ original: "Article B3: Procedures During A Competition"
 # 제B3조: 경기대회 중 절차(Article B3: Procedures During A Competition)
 
 :::info 거버넌스 정보
-- **자문 위원회**: SAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">SAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 ## B3.1 차량 검사(Scrutineering)
@@ -274,7 +274,7 @@ b.
 
 ### B3.5.5
 
-예외적으로, 각 대안 형식 경기대회에서, 챔피언십(Championship) 내 6회에 한하여, 참가자가 부품 부족을 입증할 수 있고 교체 부품이 시즌 전 공개 합동 테스트(Pre-Season Public Collective Testing), 스프린트 예선 세션, 예선 세션 또는 TTCS에서 이전에 사용된 사양인 경우, 제B3.5.4조에 따른 프론트 윙 바디워크, 리어 윙 바디워크, 리어 바디워크 또는 플로어 바디워크의 설계가 상이한 교체 부품 요청이 승인 대상으로 검토된다. 이러한 경우, 참가자는 이러한 조치가 필요할 수 있는 부품에 대하여 스프린트 시작 전에 FIA에 서면으로 통보하여야 한다.
+<mark class="changed">예외적으로, 각 대안 형식 경기대회에서, 챔피언십(Championship) 내 6회에 한하여, 참가자가 부품 부족을 입증할 수 있고 교체 부품이 시즌 전 공개 합동 테스트(Pre-Season Public Collective Testing), 스프린트 예선 세션, 예선 세션 또는 TTCS에서 이전에 사용된 사양인 경우, 제B3.5.4조에 따른 프론트 윙 바디워크, 리어 윙 바디워크, 리어 바디워크 또는 플로어 바디워크의 설계가 상이한 교체 부품 요청이 승인 대상으로 검토된다. 이러한 경우, 참가자는 이러한 조치가 필요할 수 있는 부품에 대하여 스프린트 시작 전에 FIA에 서면으로 통보하여야 한다.</mark>
 
 ### B3.5.6
 

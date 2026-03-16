@@ -12,8 +12,8 @@ original: "Article B7: Driver Adjustable Bodywork & Energy Deployment Limitation
 # 제B7조: 드라이버 조정 가능 차체 및 에너지 배치 제한(Article B7: Driver Adjustable Bodywork & Energy Deployment Limitations)
 
 :::info 거버넌스 정보
-- **자문 위원회**: SAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">SAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 ## B7.1 드라이버 조정 가능 차체(Driver Adjustable Bodywork)
@@ -24,15 +24,15 @@ original: "Article B7: Driver Adjustable Bodywork & Energy Deployment Limitation
 
 ### B7.1.2
 
-a. 허용되는 "드라이버 조정 가능 차체(Driver Adjustable Bodywork)"에는 기술 규정 제C3.10.10조에 기술된 바와 같이 FIA 표준 ECU(FIA Standard ECU)에 의하여 제어되는 프론트 윙 프로파일(Front Wing Profiles)의 입사각 조정, 및 기술 규정 제C3.11.6조에 기술된 바와 같이 FIA 표준 ECU에 의하여 제어되는 RW 플랩(RW Flap)의 입사각 조정이 포함된다.
+<mark class="changed">a. 허용되는 "드라이버 조정 가능 차체(Driver Adjustable Bodywork)"에는 기술 규정 제C3.10.10조에 기술된 바와 같이 FIA 표준 ECU(FIA Standard ECU)에 의하여 제어되는 프론트 윙 프로파일(Front Wing Profiles)의 입사각 조정, 및 기술 규정 제C3.11.6조에 기술된 바와 같이 FIA 표준 ECU에 의하여 제어되는 RW 플랩(RW Flap)의 입사각 조정이 포함된다.</mark>
 
-b. 드라이버 조정 가능 차체는 프론트 윙 프로파일과 RW 플랩이 각각 제C3.10.10조(n)(i) 및 제C3.11.6조(c)(i)에 정의된 코너 모드(Corner Mode) 위치에 있을 때 비활성화된 것으로 간주된다.
+<mark class="changed">b. 드라이버 조정 가능 차체는 프론트 윙 프로파일과 RW 플랩이 각각 제C3.10.10조(n)(i) 및 제C3.11.6조(c)(i)에 정의된 코너 모드(Corner Mode) 위치에 있을 때 비활성화된 것으로 간주된다.</mark>
 
 c. 드라이버 조정 가능 차체는 드라이버의 명령에 따라 프론트 윙 프로파일과 RW 플랩이 각각 제C3.10.10조(n)(ii) 및 제C3.11.6조(c)(ii)에 정의된 직선 모드(Straight-Line Mode) 위치에 있을 때 완전 활성화된 것으로 간주된다.
 
 d. 드라이버 조정 가능 차체는 드라이버의 명령에 따라 프론트 윙 프로파일이 직선 모드 위치에 있고 RW 플랩이 코너 모드 위치에 있을 때 부분 활성화된 것으로 간주된다.
 
-e. FIA는 모든 참가자(Competitor)에게 서킷의 정의된 활성화 구역(Activation Zones)에 관한 관련 정보를 해당 경기대회(Competition) 시작 4주 전까지 제공한다. 이에는 드라이버 조정 가능 차체의 완전 활성화가 가능할 때 사용되는 활성화 구역의 명세 및 드라이버 조정 가능 차체의 부분 활성화만이 가능할 때 사용되는 저그립 활성화 구역(Low Grip Activation Zones)의 명세가 포함된다.
+<mark class="changed">e. FIA는 모든 참가자(Competitor)에게 서킷의 정의된 활성화 구역(Activation Zones)에 관한 관련 정보를 해당 경기대회(Competition) 시작 4주 전까지 제공한다. 이에는 드라이버 조정 가능 차체의 완전 활성화가 가능할 때 사용되는 활성화 구역의 명세 및 드라이버 조정 가능 차체의 부분 활성화만이 가능할 때 사용되는 저그립 활성화 구역(Low Grip Activation Zones)의 명세가 포함된다.</mark>
 
 f. 각 정의된 활성화 구역의 시작 지점은 서킷의 최소 1개 측면에 표지판으로 표시되어야 한다.
 
@@ -80,13 +80,13 @@ b. 경기대회 시작 4주 전까지, FIA는 모든 참가자에게 해당 경�
 
 ### B7.2.2
 
-c. 제C5.2.10조 ii항이 적용될 수 있는 경기대회의 수는 챔피언십(Championship)당 최대 8회로 제한된다.
+<mark class="changed">c. 제C5.2.10조 ii항이 적용될 수 있는 경기대회의 수는 챔피언십(Championship)당 최대 8회로 제한된다.</mark>
 
-d. 챔피언십을 위하여, 제B7.2.1조 b항에 기술된 잠정적 정보 및 제한 사항이 포함된 문서가 전년도 6월 30일까지 모든 챔피언십 경기대회에 대하여 제공된다. 이 잠정적 정보에 대한 수정 사항은 전년도 9월 15일까지 확정된다. 챔피언십 일정이 공표일까지 확정되지 아니한 경우, 직전 챔피언십의 경기대회가 사용된다. 이 문서에 대한 후속 수정은 신규 서킷의 경우 또는 FIA-F1-DOC-C034-A 문서에 기술된 차량 기본 사양과 경기대회 중 관찰 결과에 부합하는 FIA 보정값 사이에 상당한 차이가 있는 경우에만 적용될 수 있다.
+<mark class="changed">d. 챔피언십을 위하여, 제B7.2.1조 b항에 기술된 잠정적 정보 및 제한 사항이 포함된 문서가 전년도 6월 30일까지 모든 챔피언십 경기대회에 대하여 제공된다. 이 잠정적 정보에 대한 수정 사항은 전년도 9월 15일까지 확정된다. 챔피언십 일정이 공표일까지 확정되지 아니한 경우, 직전 챔피언십의 경기대회가 사용된다. 이 문서에 대한 후속 수정은 신규 서킷의 경우 또는 <span class="reference">FIA-F1-DOC-C034-A</span> 문서에 기술된 차량 기본 사양과 경기대회 중 관찰 결과에 부합하는 FIA 보정값 사이에 상당한 차이가 있는 경우에만 적용될 수 있다.</mark>
 
-e. 예외적으로, 경기대회의 안전하고 질서 있는 진행을 위하여, FIA는 경기대회 시작 전 또는 경기대회 기간 중 언제든지 제B7.2.1조 b항에 기술된 정보 또는 제한 사항을 수정할 수 있다.
+<mark class="changed">e. 예외적으로, 경기대회의 안전하고 질서 있는 진행을 위하여, FIA는 경기대회 시작 전 또는 경기대회 기간 중 언제든지 제B7.2.1조 b항에 기술된 정보 또는 제한 사항을 수정할 수 있다.</mark>
 
-f. 감지 라인 및 활성화 라인의 위치는 서킷을 가로지르는 실선의 황색 선 및 이 선에 인접한 서킷의 최소 1개 측면의 표지판으로 표시되어야 한다.
+<mark class="changed">f. 감지 라인 및 활성화 라인의 위치는 서킷을 가로지르는 실선의 황색 선 및 이 선에 인접한 서킷의 최소 1개 측면의 표지판으로 표시되어야 한다.</mark>
 
 ### 오버테이크 오버라이드 모드 시스템의 활성화 및 비활성화(Enabling & Disabling of Overtake Override Mode System)
 

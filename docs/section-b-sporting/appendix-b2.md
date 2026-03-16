@@ -12,8 +12,8 @@ original: "Appendix B2: Parc Ferme Permitted Works"
 # 부속서 B2: 파크 페르메 허용 작업(Appendix B2: Parc Ferme Permitted Works)
 
 :::info 거버넌스 정보
-- **자문 위원회**: SAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">SAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 ## 1. 브레이크(BRAKES)

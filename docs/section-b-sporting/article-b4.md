@@ -12,8 +12,8 @@ original: "Article B4: Lap Time Classified Sessions (LTCS)"
 # 제B4조: 랩 타임 분류 세션(Article B4: Lap Time Classified Sessions (LTCS))
 
 :::info 거버넌스 정보
-- **자문 위원회**: SAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">SAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 ## B4.1 LTCS 일반 규정(General Provisions for LTCS)
@@ -90,4 +90,4 @@ b. 레이스 디렉터가 어떠한 F1 차량도 해당 기간 종료 전에 피
 
 ### B4.3.3
 
-기술 규정(Technical Regulations)에 정의된 AOT(AOT)는 스프린트 예선(Sprint Qualifying) 및 예선(Qualifying) 세션 전체에 걸쳐 비어 있어야 한다.
+<mark class="changed">기술 규정(Technical Regulations)에 정의된 AOT(AOT)는 스프린트 예선(Sprint Qualifying) 및 예선(Qualifying) 세션 전체에 걸쳐 비어 있어야 한다.</mark>

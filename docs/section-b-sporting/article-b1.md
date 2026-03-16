@@ -12,19 +12,19 @@ original: "Article B1: Organisation Of A Competition"
 # 제B1조: 경기대회의 조직(Article B1: Organisation Of A Competition)
 
 :::info 거버넌스 정보
-- **자문 위원회**: SAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">SAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 ## B1.1 일반 원칙 및 규정(General Principles & Provisions)
 
 ### B1.1.1
 
-경기대회(Competition)는 기술 규정(Technical Regulations)에서 정의된 포뮬러 원 차량(Formula One Cars)에 한하여 개최된다.
+<mark class="changed">경기대회(Competition)는 기술 규정(Technical Regulations)에서 정의된 포뮬러 원 차량(Formula One Cars)에 한하여 개최된다.</mark>
 
 ### B1.1.2
 
-각 경기대회는 국제 제한 경기(international restricted competition)의 지위를 가진다.
+<mark class="changed">각 경기대회는 국제 제한 경기(international restricted competition)의 지위를 가진다.</mark>
 
 ### B1.1.3
 
@@ -144,19 +144,19 @@ e. 세이프티 카(Safety Car)의 사용.
 
 ### B1.4.1
 
-경기대회의 프로모터(Promoter)는 모든 참가자, 그 인원 및 드라이버가 FIA 요건에 따른 제3자 보험에 가입되도록 하여야 한다.
+<mark class="changed">경기대회의 프로모터(Promoter)는 모든 참가자, 그 인원 및 드라이버가 FIA 요건에 따른 제3자 보험에 가입되도록 하여야 한다.</mark>
 
 ### B1.4.2
 
-경기대회 90일 전에, 프로모터는 시행 중인 국내법 및 FIA 요건을 준수하는 보험 정책이 보장하는 위험에 관한 세부 사항을 FIA에 송부하여야 한다. 해당 보험 정책의 열람은 참가자의 요청 시 제공되어야 한다.
+<mark class="changed">경기대회 90일 전에, 프로모터는 시행 중인 국내법 및 FIA 요건을 준수하는 보험 정책이 보장하는 위험에 관한 세부 사항을 FIA에 송부하여야 한다. 해당 보험 정책의 열람은 참가자의 요청 시 제공되어야 한다.</mark>
 
 ### B1.4.3
 
-프로모터가 체결한 제3자 보험은 참가자 또는 경기대회의 다른 참가인이 보유한 개인 보험 정책에 추가적이며 이를 해하지 아니한다.
+<mark class="changed">프로모터가 체결한 제3자 보험은 참가자 또는 경기대회의 다른 참가인이 보유한 개인 보험 정책에 추가적이며 이를 해하지 아니한다.</mark>
 
 ### B1.4.3
 
-경기대회에 참가하는 드라이버는 상호 간에 제3자가 아니다.
+<mark class="changed">경기대회에 참가하는 드라이버는 상호 간에 제3자가 아니다.</mark>
 
 ## B1.4 공식 회의(Official Meetings)
 
@@ -238,7 +238,7 @@ d. 모든 급유 또는 연료 취급 작업 중:
 
 공식 기상 서비스(Official Weather Service)가 경기대회의 스프린트 또는 레이스 기간 중 어느 시점에 열지수(Heat Index)가 31.0°C를 초과할 것으로 예보하는 경우, 또는 레이스 디렉터의 단독 재량에 따라, 경기대회 예정 시작 24시간 전에 "열 위험(Heat Hazard)"이 선언될 수 있다. 열 위험이 선언되면 해당 경기대회 기간 동안 유효하다. 모든 참가자에게 공식 메시징 시스템(OMS)을 통하여 통보된다. 열 위험이 선언되면:
 
-a. 냉각 매체(cooling medium) 및 시스템의 일부를 구성하는 드라이버 개인 장비 항목을 제외한 드라이버 냉각 시스템(Driver Cooling System)의 모든 구성품이 장착되어야 한다.
+<mark class="changed">a. 냉각 매체(cooling medium) 및 시스템의 일부를 구성하는 드라이버 개인 장비 항목을 제외한 드라이버 냉각 시스템(Driver Cooling System)의 모든 구성품이 장착되어야 한다.</mark>
 
 b. 열 위험이 선언된 스프린트 세션 또는 레이스의 시작 시, 드라이버 냉각 시스템의 모든 구성품이 장착되어야 한다. 해당 시스템은 기능적이어야 하며 드라이버가 사용할 수 있어야 하고, 이러한 세션에 대하여 기술 규정 제C14.6.1조에 포함된 특정 규정을 충족하여야 한다.
 
@@ -248,13 +248,13 @@ c. 제C4.1조 및 제C4.6조에 따라 열 위험 질량 증가(Heat Hazard Mass
 
 ### B1.5.11 강우 위험(Rain Hazard)
 
-공식 기상 서비스가 경기대회의 스프린트 또는 레이스 기간 중 어느 시점에 강수 확률이 40%를 초과할 것으로 예보하는 경우, 또는 레이스 디렉터의 단독 재량에 따라, "강우 위험(Rain Hazard)"이 선언될 수 있다.
+<mark class="changed">공식 기상 서비스가 경기대회의 스프린트 또는 레이스 기간 중 어느 시점에 강수 확률이 40%를 초과할 것으로 예보하는 경우, 또는 레이스 디렉터의 단독 재량에 따라, "강우 위험(Rain Hazard)"이 선언될 수 있다.</mark>
 
-a. 각 AFC(대안 형식 경기대회)에서 스프린트에 대한 강우 위험은 스프린트 예선 시작 2시간 전까지 선언되며, 이 경우 선언 시점부터 스프린트의 세션 종료 신호가 주어질 때까지 유효하다.
+<mark class="changed">a. 각 AFC(대안 형식 경기대회)에서 스프린트에 대한 강우 위험은 스프린트 예선 시작 2시간 전까지 선언되며, 이 경우 선언 시점부터 스프린트의 세션 종료 신호가 주어질 때까지 유효하다.</mark>
 
-b. 모든 경기대회에서 레이스에 대한 강우 위험은 예선 시작 2시간 전까지 선언되며, 이 경우 선언 시점부터 레이스의 세션 종료 신호가 주어질 때까지 유효하다.
+<mark class="changed">b. 모든 경기대회에서 레이스에 대한 강우 위험은 예선 시작 2시간 전까지 선언되며, 이 경우 선언 시점부터 레이스의 세션 종료 신호가 주어질 때까지 유효하다.</mark>
 
-강우 위험이 유효한 동안 F1 차량이 파크 페르메 상태에 있는 것으로 간주되는 경우, 제B3.4.2조 또는 제B3.4.3조에 따라 F1 차량이 봉인(sealed)된 경우를 제외하고, FIA-F1-DOC080에 기술된 작업이 수행될 수 있다.
+<mark class="changed">강우 위험이 유효한 동안 F1 차량이 파크 페르메 상태에 있는 것으로 간주되는 경우, 제B3.4.2조 또는 제B3.4.3조에 따라 F1 차량이 봉인(sealed)된 경우를 제외하고, <span class="reference">FIA-F1-DOC080</span>에 기술된 작업이 수행될 수 있다.</mark>
 
 ## B1.6 피트 진입로, 피트 레인 및 피트 출구로(Pit Entry Road, Pit Lane And Pit Exit Road)
 

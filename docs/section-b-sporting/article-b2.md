@@ -12,8 +12,8 @@ original: "Article B2: Format Of A Competition"
 # 제B2조: 경기대회의 형식(Article B2: Format Of A Competition)
 
 :::info 거버넌스 정보
-- **자문 위원회**: SAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">SAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 ## B2.1 자유 연습 세션(Free Practice Session(s))

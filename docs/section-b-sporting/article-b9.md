@@ -12,8 +12,8 @@ original: "Article B9: Personnel Limitations"
 # 제B9조: 인원 제한(Article B9: Personnel Limitations)
 
 :::info 거버넌스 정보
-- **자문 위원회**: SAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">SAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 ## B9.1 일반 규정(General Provisions)

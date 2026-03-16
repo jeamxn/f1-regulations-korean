@@ -12,8 +12,8 @@ original: "Article B11: Track Running Outside a Competition"
 # 제B11조: 경기대회 외 트랙 주행(Article B11: Track Running Outside a Competition)
 
 :::info 거버넌스 정보
-- **자문 위원회**: SAC
-- **거버넌스**: F1 위원회(F1 Commission) / WMSC
+- **자문 위원회**: <span class="governance">SAC</span>
+- **거버넌스**: <span class="governance">F1 위원회(F1 Commission) / WMSC</span>
 :::
 
 ## B11.1 경기대회 외 트랙 주행에 관한 일반 규정(General Provisions for Track Running Outside a Competition)
@@ -44,11 +44,11 @@ FIA 옵저버가 임명될 수 있으며, TPC, PE 또는 DE에 참관할 수 있
 
 TCC 주행은 다음의 조건에서만 진행될 수 있다:
 
-a. 최대 연속 기간 9시간 동안, 09:00부터 19:00 사이에 진행된다. 다만, 비경기대회 타이어 테스트(Out-of-Competition Tyre Testing)의 경우 모든 참가 참가자, FIA 및 타이어 공급업체(Tyre Supplier)의 합의가 있는 경우 달리 정할 수 있다. 모든 경우에 최대 연속 기간은 9시간으로 한정된다.
+<mark class="changed">a. 최대 연속 기간 9시간 동안, 09:00부터 19:00 사이에 진행된다. 다만, 비경기대회 타이어 테스트(Out-of-Competition Tyre Testing)의 경우 모든 참가 참가자, FIA 및 타이어 공급업체(Tyre Supplier)의 합의가 있는 경우 달리 정할 수 있다. 모든 경우에 최대 연속 기간은 9시간으로 한정된다.</mark>
 
-b. 유럽에 소재한 서킷에서 진행된다. 다만, 참가자의 과반수 및 FIA의 동의가 있는 경우, 또는 비경기대회 타이어 테스트(제B11.2.7조 d항)의 경우에는 예외로 한다.
+<mark class="changed">b. 유럽에 소재한 서킷에서 진행된다. 다만, 참가자의 과반수 및 FIA의 동의가 있는 경우, 또는 비경기대회 타이어 테스트(제B11.2.7조 d항)의 경우에는 예외로 한다.</mark>
 
-c. 챔피언십(Championship) 경기대회(Competition)가 진행되지 아니하는 기간에 실시된다.
+<mark class="changed">c. 챔피언십(Championship) 경기대회(Competition)가 진행되지 아니하는 기간에 실시된다.</mark>
 
 ### B11.2.2
 
@@ -177,7 +177,7 @@ b. 해당 서킷이 FIA의 단독 재량으로, 챔피언십 연도 직전 연�
 
 ### B11.4.2
 
-TMC 주행은 09:00부터 19:00 사이에 최대 연속 기간 9시간 동안만 진행될 수 있다. 다만, 모든 참가 참가자, FIA 및 해당하는 경우 타이어 공급업체의 합의가 있는 경우 달리 정할 수 있다. 모든 경우에 TMC는 최대 연속 기간 9시간 동안만 진행될 수 있다.
+<mark class="changed">TMC 주행은 09:00부터 19:00 사이에 최대 연속 기간 9시간 동안만 진행될 수 있다. 다만, 모든 참가 참가자, FIA 및 해당하는 경우 타이어 공급업체의 합의가 있는 경우 달리 정할 수 있다. 모든 경우에 TMC는 최대 연속 기간 9시간 동안만 진행될 수 있다.</mark>
 
 ### B11.4.3
 
